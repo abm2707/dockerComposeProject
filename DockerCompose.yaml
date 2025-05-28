@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   app:
+    build: .
     image: hello-world-app
     container_name: hello_world_app
     ports:
